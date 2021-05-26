@@ -20,15 +20,9 @@ export function sendTokenToIntercom(token: any): Promise<void>;
 
 /**
  * presentCarousel
- * @param carouselID
+ * @param token
  */
 export function presentCarousel(carouselID: String): Promise<void>;
-
-/**
- * presentArticle
- * @param articleID
- */
- export function presentArticle(articleID: String): Promise<void>;
 
 /**
  * registerUnidentifiedUser
